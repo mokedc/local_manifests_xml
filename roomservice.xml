@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Xiaomi Mi5 Device Tree -->
+  <project name="SyberiaProject-Devices/platform_device_xiaomi_gemini" path="device/xiaomi/gemini" remote="github" revision="9.0" />
+<project name="LineageOS/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="lineage-16.0" />
+<!-- Xiaomi Mi5 Vendor Tree -->
+  <project name="mhkjahromi/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="aosp-9.x" />
+<!-- Xiaomi Mi5 Kernel Sources -->
+  <project name="mhkjahromi/kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="github" revision="9.0-EAS" />
+</manifest>
